@@ -1,0 +1,95 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "name": "SBOM-SPDX-libxlsxwriter-1.1.9",
+  "creationInfo": {
+    "created": "2024-12-13T12:20:49Z",
+    "creators": [
+      "Tool: https://github.com/Homebrew/brew@4.4.11"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://formulae.brew.sh/spdx/libxlsxwriter-1.1.9.json",
+  "documentDescribes": [
+    "SPDXRef-Archive-libxlsxwriter-src",
+    "SPDXRef-Compiler",
+    "SPDXRef-Bottle-libxlsxwriter"
+  ],
+  "files": [
+
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Archive-libxlsxwriter-src",
+      "name": "libxlsxwriter",
+      "versionInfo": "1.1.9",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-10-24 22:47:44 UTC",
+      "licenseConcluded": "BSD-2-Clause",
+      "downloadLocation": "https://github.com/jmcnamara/libxlsxwriter/archive/refs/tags/v1.1.9.tar.gz",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "03ae330d50f74c8a70be0b06b52bd50868f7cd1251ed040fe3b68d1ad6fd11dc"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Compiler",
+      "name": "clang",
+      "versionInfo": "16.0",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "checksums": [
+
+      ],
+      "externalRefs": [
+
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Bottle-libxlsxwriter",
+      "name": "libxlsxwriter",
+      "versionInfo": "1.1.9",
+      "filesAnalyzed": false,
+      "licenseDeclared": "NOASSERTION",
+      "builtDate": "2024-10-24 22:47:44 UTC",
+      "licenseConcluded": "BSD-2-Clause",
+      "downloadLocation": "https://ghcr.io/v2/homebrew/core/libxlsxwriter/blobs/sha256:b280205134eaf3fe3e68ce2ce3cded36e004b6f62631967261e168b4731084b8",
+      "copyrightText": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceLocator": "pkg:brew/homebrew/core/libxlsxwriter@1.1.9",
+          "referenceType": "purl"
+        }
+      ],
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b280205134eaf3fe3e68ce2ce3cded36e004b6f62631967261e168b4731084b8"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-File-libxlsxwriter",
+      "relationshipType": "PACKAGE_OF",
+      "relatedSpdxElement": "SPDXRef-Archive-libxlsxwriter-src"
+    },
+    {
+      "spdxElementId": "SPDXRef-Compiler",
+      "relationshipType": "BUILD_TOOL_OF",
+      "relatedSpdxElement": "SPDXRef-Package-libxlsxwriter-src"
+    }
+  ]
+}

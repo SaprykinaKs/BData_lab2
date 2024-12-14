@@ -1,0 +1,96 @@
+{
+  "homebrew_version": "4.3.20-56-g2b86207",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "bin/wx-config",
+    "lib/wx/config/osx_cocoa-unicode-3.2",
+    "lib/wx/include/osx_cocoa-unicode-3.2/wx/setup.h"
+  ],
+  "time": 1734091542,
+  "source_modified_time": 1725722400,
+  "compiler": "clang",
+  "aliases": [
+    "wxwidgets@3.2"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "jpeg-turbo",
+      "version": "3.0.4",
+      "revision": 0,
+      "pkg_version": "3.0.4",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libpng",
+      "version": "1.6.44",
+      "revision": 0,
+      "pkg_version": "1.6.44",
+      "declared_directly": true
+    },
+    {
+      "full_name": "xz",
+      "version": "5.6.3",
+      "revision": 0,
+      "pkg_version": "5.6.3",
+      "declared_directly": false
+    },
+    {
+      "full_name": "lz4",
+      "version": "1.10.0",
+      "revision": 0,
+      "pkg_version": "1.10.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "zstd",
+      "version": "1.5.6",
+      "revision": 0,
+      "pkg_version": "1.5.6",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libtiff",
+      "version": "4.7.0",
+      "revision": 0,
+      "pkg_version": "4.7.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "pcre2",
+      "version": "10.44",
+      "revision": 0,
+      "pkg_version": "10.44",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "3.2.6",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/Users/kseniasaprykina/Library/Caches/Homebrew/api/formula.jws.json",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 15",
+    "cpu_family": "dunno",
+    "xcode": "16.0",
+    "clt": "16.0.0.0.1.1724870825",
+    "preferred_perl": "5.34"
+  }
+}
